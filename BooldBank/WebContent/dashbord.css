@@ -1,0 +1,85 @@
+@charset "UTF-8";
+body{
+    font-family: 'Exo 2', sans-serif;
+    color:white;
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+
+.nav-sidebar{
+    margin: 80px -20px 20px 20px;
+    color:white;
+}
+
+.nav-sidebar >li >a{
+    padding: 20px 20px;
+    color:white;
+}
+.navbar-inverse
+{
+background-color:#007bff;
+color:white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color:white;
+
+	}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form
+	{
+	border-color:#007bff;
+	}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+{
+	color: #fff;
+    background-color: #0062E6;
+}
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+#sbtn{
+	background-color:#007bff;
+}
+.nav-sidebar >li >a:hover{
+	background-color:#007bff;
+
+	
+
+	}
+
+.btn--radius-2 {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.btn--radius {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.btn--pill {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.btn1 {
+  display: inline-block;
+  line-height: 50px;
+  padding: 0 50px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+}
+.btn--orange {
+  background: #ffa500;
+}
+.btn--red {
+  background: #DC143C;
+}
